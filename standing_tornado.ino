@@ -6,7 +6,7 @@
 
 // right motor pins
 #define IN3 A9
-#define IN4 10
+#define IN4 A10
 #define ENB 11   
 
 void setup() {
