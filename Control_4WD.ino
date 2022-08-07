@@ -22,7 +22,8 @@
 #define ENB2 6
 
 #define HC06 Serial3
-#define MOTOR_SPEED 150
+
+//#define MOTOR_SPEED 0
 
 //button1,2 => 왼쪽 바퀴
 //button3,4 => 오른쪽 바
