@@ -130,16 +130,16 @@ void motor_drive(){
     digitalWrite(IN1_2, button2);
     digitalWrite(IN1_3, button1);
     digitalWrite(IN1_4, button2);
-    digitalWrite(ENA1, HIGH);
-    digitalWrite(ENB1, HIGH);
+    analogWrite(ENA1, 255);
+    analogWrite(ENB1, 255);
 
 
     digitalWrite(IN2_1, button3);
     digitalWrite(IN2_2, button4);
     digitalWrite(IN2_3, button3);
     digitalWrite(IN2_4, button4);
-    digitalWrite(ENA2, HIGH);
-    digitalWrite(ENB2, HIGH);
+    analogWrite(ENA2, 255);
+    analogWrite(ENB2, 255);
     
 
     
