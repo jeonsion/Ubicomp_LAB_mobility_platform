@@ -81,7 +81,7 @@ void loop() {
   if(Booster == 0){
     motor_drive();
   }
-  else if(Booster == 0){
+  else if(Booster == 1){
     B_moter_drive();
   }
 
