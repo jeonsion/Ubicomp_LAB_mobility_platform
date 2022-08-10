@@ -106,7 +106,7 @@ void rc_ctrl_val(unsigned char cmd){
   }
 
   //왼쪽으로 회전 
-  if( cmd == '2')
+  if( cmd == '3')
   {
     button1 = 0;
     button2 = 1;
@@ -114,7 +114,7 @@ void rc_ctrl_val(unsigned char cmd){
     button4 = 0;
   }
 
-  if (cmd == '3')
+  if (cmd == '2')
   {
     button1 = 1;
     button2 = 0;
